@@ -1,1 +1,152 @@
-hello world!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matvey Sazonov | Machine Learning Engineer</title>
+    <style>
+        :root { --primary: #383e44; --secondary: #7f8c8d; }
+        body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 20px; }
+        h1 { color: var(--primary); border-bottom: 2px solid var(--primary); }
+        h2 { color: var(--primary); margin-top: 1.5em; }
+        .role-header { display: flex; justify-content: space-between; margin: 1.2em 0 0.5em; }
+        .company { font-weight: 600; color: var(--primary); }
+        .keywords { color: var(--secondary); font-size: 0.9em; margin: 0.8em 0; }
+        .details { color: var(--secondary); font-size: 0.9em; margin: 0.2em 0; }
+        .role-desc { font-size: 1em; margin: 0.8em 0; }
+        .me { display: flex; justify-content: space-between; margin: 1.2em 0 0.5em; }
+        .role-name {font-size: 1.5rem; padding-top: 0%; margin-top: 0%;}
+        .contact-info { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1em; margin: 1em 0; }
+        ul { padding-left: 1.2em; }
+        footer { margin-top: 3em; text-align: center; color: var(--secondary); }
+    </style>
+</head>
+<body>
+    <h1>Matvey Sazonov<br><p class="role-name">Machine Learning Engineer</p></h1>
+    <div class="me">
+        Building computer vision systems and ML pipelines.
+    </div>
+
+    <section class="contact-info">
+        <div>
+            <strong>Email:</strong> moonqdev@gmail.com<br>
+            <strong>Location:</strong> Saint Petersburg, Russia
+        </div>
+        <div>
+            <strong>Telegram:</strong> <a href="https://t.me/moonqsd">@moonqsd</a><br>
+            <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/matvey-sazonov-a43624210/">link</a>
+        </div>
+    </section>
+
+    <section class="roles">
+        <h2>Experience</h2>
+
+        <div class="role-header">
+            <div>
+                <span class="company">Wildberries</span>
+                <div>Machine Learning Engineer</div>
+            </div>
+            <div>May 2024 - Present</div>
+        </div>
+        <div class="role-desc">
+            Train and deploy production vision models powering recommendation systems and product analytics
+        </div>
+        <ul>
+            <li>
+                Build vision pipeline for outfit recommendation system using compatibility modeling
+                <div class="details">
+                    Coverage: 3M+ fashion products
+                </div>
+            </li>
+            <li>
+                Design high-throughput object detection (1k+ categories) and semantic segmentation on product images
+                <div class="details">
+                    300+ end-to-end RPS per single model instance
+                </div>
+            </li>
+            <li>
+                Deliver vision models to production
+                <div class="details">
+                    Using TensorRT and Triton Inference Server
+                </div>
+            </li>
+        </ul>
+        <div class="keywords">
+            Keywords: Object Detection, Semantic Segmentation, Fashion Compatibility, Multimodal Embeddings, RecSys, Contrastive Learning, PyTorch, hdfs, TensorRT, Triton Inference Server, onnxruntime, Trino, CI/CD, ClearML, MLflow, hnswlib, faiss
+        </div>
+
+
+        <div class="role-header">
+            <div>
+                <span class="company">Huawei</span>
+                <div>
+                    Machine Learning Engineer
+                </div>
+            </div>
+            <div>March 2023 - May 2024</div>
+        </div>
+        <div class="role-desc">
+            Designed computer vision models, achieving real-time CPU inference latency
+        </div>
+        <ul>
+            <li>Accelerated Image Restoration pipeline for real-time image analysis
+                <div class="details">
+                    5x latency reduction on CPU with structural pruning, deployed via OpenVINO
+                </div>
+            </li>
+            <li>Designed small tensor decomposition framework for CNN acceleration
+                <div class="details">
+                    7x CPU speed-up for Object Detection model deployed via MNN
+                </div>
+            </li>
+        </ul>
+        <div class="keywords">
+            Keywords: Model Optimization, Acceleration, Pruning, Tensor Decomposition, Bayesian optimization, Diffusion models, ONNX, onnxrunime, OpenVINO, MNN, MindSpore, DVC
+        </div>
+
+        <div class="role-header">
+            <div>
+                <span class="company">Airmetric</span>
+                <div>
+                    Full-stack Engineer
+                </div>
+            </div>
+            <div>July 2022 - March 2023</div>
+        </div>
+        <div class="role-desc">
+            Developed panoramic images web viewer, enabling 5+ years of Moscow scan data analysis by 100+ users
+            <div class="details">
+                Supports geospatial measurement tools, map synchronization and multiple user access.
+            </div>
+        </div>
+
+        <div class="role-header">
+            <div>
+                <span class="company">Data East</span>
+                <div>Machine Learning Engineer</div>
+            </div>
+            <div>April 2021 - June 2022</div>
+        </div>
+        <div class="role-desc">
+            Built satellite imagery analysis systems using deep learning
+            <div class="details">
+                Semi-automatic labeling tools on satellite images
+            </div>
+        </div>
+    </section>
+    
+    <div class="section">
+        <h2>Education</h2>
+        <div class="role-header">
+            <div class="company">Novosibirsk State University</div>
+            <div>2018–2022</div>
+        </div>
+        <div>BSc Mathematics & Computer Science</div>
+        <div class="details">Thesis: Rota-Baxter operators on Quandle algebras</div>
+    </div>
+
+    <footer>
+        <p>Updated: Feb 2025</a></p>
+    </footer>
+</body>
+</html>
